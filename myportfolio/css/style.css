@@ -1,0 +1,199 @@
+#mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-weight: 700;
+}
+
+.bgcolor {
+    background-color: #ef6b8c!important;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+.navbar-expand{
+    flex-flow:row nowrap;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+a {
+    text-decoration: none;
+    color:white!important;
+}
+
+
+.navbar-logo {
+    color: #fff;
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+
+ul {
+    list-style-type: disc;
+}
+li {
+    text-align: -webkit-match-parent;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: rgb(233, 45, 92)!important;
+}
+body {
+    margin: 0;
+    font-family: Lato,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ef6b8c;
+    text-align: left;
+    background-color: #fff;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.welcome {
+    padding-top: 175px;
+    text-align: center;
+    color:#ef6b8c;
+    display: block;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+.subhead {
+    padding-top: 175px;
+    text-align: center;
+    color:#ef6b8c;
+    display: block;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #ef6b8c!important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.text-left {
+    text-align:left
+}
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #f1406c;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  
+  input[type=submit] {
+    background-color: #ffffff;
+    color: black;
+    margin-top:40px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input:hover{
+      background-color: #bbb1b3;
+  }
+
+  input[type=submit]:hover {
+    background-color: #f1406c;
+  }
+  
+  .containerForm {
+    border-radius: 5px;
+    background-color: #ef6b8c;
+    padding: 20px;
+  }
